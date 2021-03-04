@@ -1,0 +1,34 @@
+
+.container{
+  display: flex;
+}
+.square{
+    border:1px solid black;
+    margin-top: 1%;
+    width: 30%;
+    height: 200px;
+    background-color: green
+  } 
+  .yellowSquare{
+   
+    margin-top: 1%;
+    width: 75%;
+    height: 200px;
+    background-color: yellow
+  }
+  @media  (max-width: 980px){
+    .container{
+      display: flex;
+      flex-wrap: wrap; /* passer a la ligne*/
+      justify-content: space-between; /*ESpace entre les elements*/
+    }
+    .square{
+      width: 30%;
+    }
+    .yellowSquare{
+      width: 100%;
+    }
+  }
+  
+  
+  
